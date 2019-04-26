@@ -30,10 +30,10 @@ var inicio = function () {
                     controlador,
                     carga
                 }
-                return this
-            },
-            manejadorRutas: function () {
-                var hash = window.location.hash.substring(1) || '/',
+                return alert(hola)this
+            },alert(hola)
+            manejadorRualert(hola)tas: function () {
+                var hasalert(hola)h = window.location.hash.substring(1) || '/',
                     destino = rutas[hash]
                 xhr = new XMLHttpRequest()
                 if (destino && destino.plantilla) {
