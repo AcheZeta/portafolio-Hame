@@ -1,0 +1,27 @@
+{
+  "name": "mx007-portafolio",
+  "version": "1.0.0",
+  "description": "Portfolio ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcheZeta/portafolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "achezeta",
+    "ache_zeta"
+  ],
+  "author": "AcheZeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AcheZeta/portafolio/issues"
+  },
+  "homepage": "https://github.com/AcheZeta/portafolio#readme"
+}
