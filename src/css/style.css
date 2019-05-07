@@ -6,3 +6,20 @@ body {
 .navbar {
     background-color: #3F0F3F;
 }
+
+.about {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 120%;
+}
+
+h4 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.name {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.code {
+    font-family: 'Source Code Pro', monospace;
+}
