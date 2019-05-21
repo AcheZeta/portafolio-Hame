@@ -3,13 +3,13 @@ body {
 }
 
 
-.navbar {
+.navfoot {
     background-color: #3F0F3F;
 }
 
 .about {
     font-family: 'Catamaran', sans-serif;
-    font-size: 120%;
+    font-size: 125%;
 }
 
 h4 {
@@ -23,3 +23,7 @@ h4 {
 .code {
     font-family: 'Source Code Pro', monospace;
 }
+.meImg {
+    margin: 1em 0;
+    padding: 0;
+
