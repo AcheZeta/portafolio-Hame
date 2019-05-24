@@ -31,7 +31,7 @@ const infoProjects = [{
 const printingCards = (element) => {
   let card =
     `
-    <div id=${element.id} class="col s12 m6 l6">
+    <div id=${element.id} class="col s12 m6 l4 center">
     <div class="card">
         <div class="card-image">
         <img src=${element.image}>
@@ -60,3 +60,10 @@ function showCards() {
 };
 
 showCards(infoProjects);
+
+//
+
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems, options);
+});
