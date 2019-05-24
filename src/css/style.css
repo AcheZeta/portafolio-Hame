@@ -2,7 +2,6 @@ body {
     background-color: #F6F7F8;
 }
 
-
 .navfoot {
     background-color: #3F0F3F;
 }
@@ -27,4 +26,14 @@ h4 {
 .meImg {
     margin: 1em 0;
     padding: 0;
+}
+
+.iconFooter {
+    width: 30px;
+}
+
+/* ///////////// */
+
+.devicon-git-plain {
+    max-width: 3em;
 }
