@@ -1,10 +1,12 @@
-# Portafolio
+# Sobre mí: 
+
+Soy una apasionada de la tecnología, la educación y causas sociales, áreas en las que cuento con experiencia como voluntaria, colaboradora o incluso como coordinadora en diferentes proyectos. 
+
+Actualmente me formo como Front-End Developer en la séptima generación de Laboratoria, el Bootcamp número uno en latinoamérica en el desarrollo de talento femenino en el sector tech. 
 
 Conoce más sobre mi trabajo en el bootcamp de Laboratoria. 
 
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
@@ -13,9 +15,12 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3)
 - [HTML5](https://hipertextual.com/archivo/2013/05/entendiendo-html5-guia-para-principiantes/)
 
-## Autores ✒️
+## Sígueme ✒️
 
-- Hameyalli - [AcheZeta](https://github.com/AcheZeta)
+- [GitHub](https://github.com/AcheZeta)
+- [LinkedIn](https://www.linkedin.com/in/hameyalli-elizalde/)
+- [Medium](https://medium.com/@AcheZeta)
+- [Twitter](https://twitter.com/ache_zeta)
 
 ## Expresiones de Gratitud 🎁
 
