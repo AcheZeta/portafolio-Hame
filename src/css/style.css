@@ -39,7 +39,11 @@ h4 {
 }
 
 .laboratoria {
-    max-width: 10em;
+    max-width: 8em;
+}
+
+.pdf{
+    color: #3F0F3F;
 }
 
 
