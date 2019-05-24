@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems, options);
+  M.AutoInit(elems);
 });
-
 
 const projects = document.getElementById("projects");
 const infoProjects = [{
