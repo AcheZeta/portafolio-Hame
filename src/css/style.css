@@ -4,6 +4,7 @@ body {
 
 .navfoot {
     background-color: #3F0F3F;
+    color: #ECE7EC
 }
 
 .about {
@@ -37,3 +38,12 @@ h4 {
 .devicon-git-plain {
     max-width: 3em;
 }
+
+.laboratoria {
+    max-width: 10em;
+}
+
+.footer{
+   background-color: #ECE7EC
+}
+
