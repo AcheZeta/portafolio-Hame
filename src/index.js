@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var instances = M.Sidenav.init(elems, options);
 });
 
+
 const projects = document.getElementById("projects");
 const infoProjects = [{
     id: 'one',
