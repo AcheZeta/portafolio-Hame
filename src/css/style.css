@@ -16,14 +16,14 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
-h5{
-    font-family: 'Libre Baskerville', serif;
+h5 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 
 .code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
 .meImg {
@@ -35,8 +35,6 @@ h5{
     width: 30px;
 }
 
-/* ///////////// */
-
 .devicon-git-plain {
     max-width: 3em;
 }
@@ -45,6 +43,6 @@ h5{
     max-width: 8em;
 }
 
-.pdf {
+.pdf{
     color: #3F0F3F;
 }

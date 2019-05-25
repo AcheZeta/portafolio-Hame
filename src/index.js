@@ -41,10 +41,10 @@ const printingCards = (element) => {
         <p>${element.description}</p></br>
         <i class=${element.t1}></i><i class=${element.t2}></i><i class=${element.t3}></i>
         </div>
-        <div class="card-action">
-            <a href="${element.demoLink}"
+        <div class="link card-action">
+            <a class="code link" href="${element.demoLink}"
                 target="_blank">DEMO</a>
-            <a href="${element.githubLink}"
+            <a class="code link" href="${element.githubLink}"
                 target="_blank">Repositorio</a>
         </div>
     </div>
