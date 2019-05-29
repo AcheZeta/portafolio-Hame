@@ -20,7 +20,9 @@ h5 {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+a{
+    color: #F6F7F8;
+}
 
 .code {
     font-family: 'Encode Sans Semi Condensed', sans-serif;
