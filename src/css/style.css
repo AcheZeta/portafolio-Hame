@@ -7,6 +7,12 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
+.headerskill {
+    background-color: #F6F7F8;
+    font-family: 'Libre Baskerville', serif;
+    color: #3F0F3F;
+}
+
 .about {
     font-family: 'Lato', sans-serif;
     font-size: 100%;
@@ -20,8 +26,12 @@ h5 {
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
+a {
     color: #F6F7F8;
+}
+
+p {
+    text-align: justify;
 }
 
 .code {
@@ -45,6 +55,6 @@ a{
     max-width: 8em;
 }
 
-.pdf{
+.pdf {
     color: #3F0F3F;
 }

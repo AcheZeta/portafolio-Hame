@@ -26,6 +26,18 @@ const infoProjects = [{
     t2: 'devicon-html5-plain',
     t3: 'devicon-css3-plain',
   },
+  {
+    id: 'three',
+    image: 'img/shotsnapp-1559328611.05.png',
+    title: 'Burger Queen',
+    description: 'Una Progressive Web App que para realizar las ordenes de un restaurante usando VueJs',
+    demoLink: 'https://burgerqueen-2058b.firebaseapp.com/#/',
+    githubLink: 'https://github.com/AcheZeta/CDMX007-fe-burger-queen',
+    t1: 'devicon-javascript-plain',
+    t2: 'devicon-html5-plain',
+    t3: 'devicon-css3-plain',
+    t4: 'devicon-vuejs-plain',
+  }
 ]
 
 const printingCards = (element) => {
@@ -39,7 +51,7 @@ const printingCards = (element) => {
         <div class="card-content code">
         <p><b>${element.title}</b></p>
         <p>${element.description}</p></br>
-        <i class=${element.t1}></i><i class=${element.t2}></i><i class=${element.t3}></i>
+        <i class=${element.t1}></i><i class=${element.t2}></i><i class=${element.t3}></i><i class=${element.t4}></i>
         </div>
         <div class="link card-action">
             <a class="code link" href="${element.demoLink}"
@@ -63,7 +75,5 @@ showCards(infoProjects);
 
 //
 
-document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('.slider');
-  var instances = M.Slider.init(elems, options);
-});
+M.AutoInit();
+        
