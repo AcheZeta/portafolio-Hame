@@ -53,11 +53,12 @@ const printingCards = (element) => {
         <p>${element.description}</p></br>
         <i class=${element.t1}></i><i class=${element.t2}></i><i class=${element.t3}></i><i class=${element.t4}></i>
         </div>
-        <div class="link card-action">
-            <a class="code link" href="${element.demoLink}"
-                target="_blank">DEMO</a>
-            <a class="code link" href="${element.githubLink}"
-                target="_blank">Repositorio</a>
+        <div class="link">
+            <a class="demo-link code" href="${element.demoLink}"
+                target="_blank"><b>DEMO<b></a>
+               </br> 
+                <a class="git-link code" href="${element.githubLink}"
+                target="_blank">CÓDIGO</a>
         </div>
     </div>
 </div> `
@@ -76,4 +77,3 @@ showCards(infoProjects);
 //
 
 M.AutoInit();
-        
