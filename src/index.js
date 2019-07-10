@@ -20,7 +20,7 @@ const infoProjects = [{
     image: 'img/shotsnapp-1557175123.832.png',
     title: 'MoviePop',
     description: 'Desarrollada durante una hackathon de 3 días en un equipo de 4 personas, MoviePOP muestra las reseñas de peliculas usando la API de OMDB.',
-    demoLink: 'https://elenore29.github.io/mex007-hackathon-interna/src/index.html',
+    demoLink: 'https://achezeta.github.io/mex007-hackathon-interna/src/index.html',
     githubLink: 'https://github.com/AcheZeta/mex007-hackathon-interna',
     t1: 'devicon-javascript-plain',
     t2: 'devicon-html5-plain',
@@ -53,17 +53,17 @@ const printingCards = (element) => {
         <p>${element.description}</p></br>
         <i class=${element.t1}></i><i class=${element.t2}></i><i class=${element.t3}></i><i class=${element.t4}></i>
         </div>
-        <div class="link card-action">
-            <a class="code link" href="${element.demoLink}"
-                target="_blank">DEMO</a>
-            <a class="code link" href="${element.githubLink}"
-                target="_blank">Repositorio</a>
+        <div class="link">
+            <a class="demo-link code" href="${element.demoLink}"
+                target="_blank"><b>DEMO<b></a>
+               </br> 
+                <a class="git-link code" href="${element.githubLink}"
+                target="_blank">CÓDIGO</a>
         </div>
     </div>
 </div> `
   projects.insertAdjacentHTML("beforeend", card);
 }
-
 
 function showCards() {
   infoProjects.forEach(element => {
@@ -76,4 +76,3 @@ showCards(infoProjects);
 //
 
 M.AutoInit();
-        
