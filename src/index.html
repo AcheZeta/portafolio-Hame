@@ -38,24 +38,42 @@
 
 
 <body>
-    <!-- NAV -->
     <div class=" navbar-fixed">
-
         <nav>
+            <div class="nav-wrapper navfoot">
+                <a href="#!" class="brand-logo">AcheZeta</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#aboutme">Sobre Mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#tools">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#aboutme">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#tools">Skills</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+
+        <!-- <nav>
             <div class="nav-wrapper navfoot">
                 <div class="container">
                     <a href="#!" class="brand-logo">AcheZeta</a>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </div>
 
-    <!-- CONTAINER -->
     <div class="container">
         <section id="about" class="row">
             <div class="col s12 m6 l4 center">
                 <figure>
-                    <img alt="Hame" class="circle responsive-img" src="img/1633468.jpeg">
+                    <img alt="Hame" class="yo circle responsive-img" src="img/1633468.jpeg">
                 </figure>
             </div>
             <!-- NAME -->
@@ -103,7 +121,8 @@
 
             <ul class="collapsible">
                 <li>
-                    <div class="collapsible-header headerskill"><i class="material-icons">build</i>Herramientas Técnicas</div>
+                    <div class="collapsible-header headerskill"><i class="material-icons">build</i>Herramientas Técnicas
+                    </div>
                     <div class="collapsible-body">
                         <span>
                             <!-- git -->
@@ -166,7 +185,8 @@
                     </div>
                 </li>
                 <li>
-                    <div class="collapsible-header headerskill"><i class="material-icons">local_florist</i>Otras Habilidades</div>
+                    <div class="collapsible-header headerskill"><i class="material-icons">local_florist</i>Otras
+                        Habilidades</div>
                     <div class="collapsible-body bodyskill">
                         <span>
                             Planeación Estratégica</br>
@@ -243,7 +263,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer navfoot">
+    <footer id="contacto" class="page-footer navfoot">
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l12">
