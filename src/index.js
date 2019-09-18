@@ -75,7 +75,7 @@ const infoProjects = [{
 
 const printingCards = (element) => {
   let card =
-    `<div id=${element.id} class="col s12 m6 l4">
+    `<div id=${element.id} class="center col s12 m4 l4">
      <div class="card">
         <div class="card-image">
         <img src=${element.image}>
