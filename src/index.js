@@ -31,7 +31,7 @@ const infoProjects = [{
     image: 'img/3.png',
     title: 'SproutThink',
     description: 'Red Social enfocada en usuarios interés en la ecología, sustentabilidad y energías renovables ya sea por profesión o hobby.',
-    demoLink: 'hhttps://achezeta.github.io/CDMX007-social-network/src/#home',
+    demoLink: 'https://achezeta.github.io/CDMX007-social-network/src/#home',
     githubLink: 'https://github.com/AcheZeta/CDMX007-social-network',
     t1: 'devicon-javascript-plain',
     t2: 'devicon-html5-plain',
