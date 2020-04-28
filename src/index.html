@@ -32,51 +32,66 @@
     <meta property="og:url" content="https://achezeta.github.io/portafolio-Hame/src/" />
     <meta property="og:image" content="https://github.com/AcheZeta/portafolio-Hame/blob/master/src/img/eventl.jpeg" />
     <meta property="og:description"
-        content="Actualmente me formo como Front-End Developer en Laboratoria, conoce algunos de mis proyectos" />
+        content="Front-End Developer egresada de Laboratoria, conoce algunos de mis proyectos" />
 
 </head>
 
 
 <body>
-    <!-- NAV -->
-    <div class=" navbar-fixed">
-
+    <!--Fixed Navbar-->
+    <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper navfoot">
                 <div class="container">
                     <a href="#!" class="brand-logo">AcheZeta</a>
                 </div>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#aboutme">Sobre Mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#tools">Skills</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
             </div>
         </nav>
     </div>
+    <!-- Sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#aboutme">Sobre Mí</a></li>
+        <li><a href="#project">Proyectos</a></li>
+        <li><a href="#tools">Skills</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
 
-    <!-- CONTAINER -->
     <div class="container">
         <section id="about" class="row">
             <div class="col s12 m6 l4 center">
                 <figure>
-                    <img alt="Hame" class="circle responsive-img" src="img/1633468.jpeg">
+                    <img alt="Hame" class="yo circle responsive-img" src="img/1633468.jpeg">
                 </figure>
             </div>
             <!-- NAME -->
-            <div id="aboutme" class="col s12 m6 l8 center name">
+            <div id="aboutme" class="col s12 m6 l8 center name scrollspy">
                 <h1>Hame Elizalde</h1>
             </div>
             <!-- ABOUT ME -->
             <div class="row">
                 <div class="col s12 m12 l12">
                     <span class="black-text">
+
                         <p class="about center">
                             Soy Front-End Developer, Me apasiona la tecnología, la educación y causas sociales, áreas en las que cuento con
                             experiencia como voluntaria, colaboradora y coordinadora en diferentes proyectos.
                             Llevo muchos años siendo autodidacta lo que me permitió a programar de forma ágil en poco
                             tiempo. Busco desarrollar productos digitales inclusivos y que impulsen el crecimiento de
                             más mujeres en la tecnología.
+
                         </p>
                     </span>
                 </div>
             </div>
         </section>
+
 
         <div class="divider"></div>
         &nbsp &nbsp
@@ -207,6 +222,7 @@
         </section> -->
 
         <!-- SOCIAL
+
         <section id="laboratoria">
 
             <div class="col s12 m12 l12 center">
@@ -228,8 +244,25 @@
         <div class="divider"></div> -->
     </div>
 
+
+        <!-- Twitter -->
+        <section id="social" class="section">
+            <blockquote class="twitter-tweet" data-width="300" data-lang="es" data-link-color="#3F0F3F">
+                <p lang="es" dir="ltr">¡Que emoción! La plática Montessori para ser Agile ya está disponible en
+                    <a href="https://twitter.com/RevistaSG?ref_src=twsrc%5Etfw">@RevistaSG</a> ¡muchas gracias
+                    <a href="https://twitter.com/eventloopmx?ref_src=twsrc%5Etfw">@eventloopmx</a>! <a
+                        href="https://t.co/mnPYX2JnEh">https://t.co/mnPYX2JnEh</a></p>&mdash; Hame (@Ache_Zeta)
+                <a href="https://twitter.com/Ache_Zeta/status/1125478880029048832?ref_src=twsrc%5Etfw">6 de mayo
+                    de 2019</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+
+        <div class="divider"></div>
+        &nbsp &nbsp
+    </div>
     <!-- Footer -->
-    <footer class="page-footer navfoot">
+    <footer id="contacto" class="page-footer navfoot scrollspy">
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l12">
